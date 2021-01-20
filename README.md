@@ -9,6 +9,16 @@ revenue.
 According to various studies, acquiring a new customer is anywhere from 5 to 25 times more expensive
 than retaining an existing one. Today’s telecommunication companies are doing everything they can to
 retain their existing customers, but customer churn is still high.
+# Solution
+Though telecommunication companies have been putting in great efforts, they are still unable to
+conquer the churn battle because they aren’t leveraging the bulk of data.
+One of the reasons for this could be that most of the companies have been using traditional churn
+prediction models that have been heavily dependent only on the data gathered from transaction
+histories and demographics, but this method fails to integrate dynamic customer-generated input with
+real customer needs, wants, and wishes.
+So, having a churn prediction model that can leverage customer interactions and is built on the latest
+technologies like machine learning and text analytics will help companies in analyzing the customer
+interactions at scale to understand customer behavior.
 # About the Data set
 The data set includes information about:
 1. Customers who left within the last month – the column is called Churn
