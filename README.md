@@ -1,14 +1,39 @@
 # Predicting Telecom Customer Churn
-
-
+# Domain Background
+Telecommunication businesses have seen the adverse effects of customer churn on company revenue.
+With the challenging dynamics in the telecommunications industry, reducing churn in the customer
+base should be among any telecommunication company’s top priorities.
+Companies should not only spend their valuable time and resources probing for new customers, they
+must keep their existing customers happy as it impacts their lifetime value and safeguards their
+revenue.
+According to various studies, acquiring a new customer is anywhere from 5 to 25 times more expensive
+than retaining an existing one. Today’s telecommunication companies are doing everything they can to
+retain their existing customers, but customer churn is still high.
 # About the Data set
 The data set includes information about:
- Customers who left within the last month – the column is called Churn
- Services that each customer has signed up for – phone, multiple lines, internet, online security,
+1. Customers who left within the last month – the column is called Churn
+2. Services that each customer has signed up for – phone, multiple lines, internet, online security,
 online backup, device protection, tech support, and streaming TV and movies
- Customer account information – how long they’ve been a customer, contract, payment method,
+3. Customer account information – how long they’ve been a customer, contract, payment method,
 paperless billing, monthly charges, and total charges
- Demographic info about customers – gender, age range, and if they have partners and
+4. Demographic info about customers – gender, age range, and if they have partners and
 dependents
- As well it consists of 7044 * 21 Cells of Info Ranging From Customer ID’s to their Churn State
- Source: Telco Customer Churn programs from Kaggle(https://www.kaggle.com/blastchar/telco-customer-churn)
+5. As well it consists of 7044 * 21 Cells of Info Ranging From Customer ID’s to their Churn State
+6. Source: Telco Customer Churn programs from Kaggle(https://www.kaggle.com/blastchar/telco-customer-churn)
+# Project Objectives
+1. Exploring the Dataset
+2. Manipulation of data to Tenure Groups for later classification
+3. Use of Info provided to create Statistical Analysis of the state of Each Customer
+4. Understand the Cause of Customer Churning from the overall Subscribed Services & Other Info
+5. Visualizing the descriptive statistics of the whole Dataset
+6. Preprocess Data & Remove Un-Necessary Data
+7. Customer segmentation using clustering analysis
+8. Shuffle & Split Data
+9. Train & Test Both Random Forest & Logistic Regression Models
+10. Resample, Shuffle & Split Data then retrain
+11. Measure & Compare Final Scores and Improvements
+
+# Analytical tools used
+
+1. Market segmentation with K-Means clustering analysis
+2. Predicting customer churn with Logistic Regression and Random Forest
